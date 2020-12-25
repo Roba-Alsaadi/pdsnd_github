@@ -2,7 +2,7 @@
 Friday, 25 December 2020
 
 ### Project Title
-Roba's bikeshare project on GitHub
+bikeshare project
 
 ### Description
 It displays information about the bike-share system in three US cities: Chicago, New York City, and Washington, and it displays the most common start station , end station and trip in a specific month and day of the week.
