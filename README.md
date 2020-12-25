@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+Friday, 25 December 2020
 
 ### Project Title
-Replace the Project Title
+Roba's bikeshare project on GitHub
 
 ### Description
-Describe what your project is about and what it does
+It displays information about the bike-share system in three US cities: Chicago, New York City, and Washington.
 
 ### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+project2-2.py
+Chicago.cvs
+New York City.cvs
+Washington.cvs
