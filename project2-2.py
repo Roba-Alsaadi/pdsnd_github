@@ -195,7 +195,7 @@ def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-        #Display row data
+        #This display five rows of row data
         row_data = input("Would you like to see the row data?").lower().strip()
         start_row = 0
         end_row = 5
