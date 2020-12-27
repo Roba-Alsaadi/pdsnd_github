@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -91,9 +91,8 @@ def time_stats(df):
     # TO DO: display the most common start hour
     popular_hour = df["Start Time"].mode()[0]
 
-    print("the most common month is :", popular_month)
-    print("the most common day of week is:", popular_day_of_week)
-    print("the most common start hour is:", popular_hour)
+    print("the most common month is {} and the most common day of week is {} and the most common start hour is {}".format(popular_month, popular_day_of_week, popular_hour))
+
 
 
 
@@ -119,8 +118,7 @@ def station_stats(df):
     df["popular combination"] = df["Start Station"] + " TO " + df["End Station"].mode()[0]
 
 
-    print("the most common start station is :", popular_start_station)
-    print("the most common end station  is:", popular_end_station)
+    print("the most common start station is {} and the most common end station is {}".format(popular_start_station, popular_end_station))
     print("the most common trip is:",  df["popular combination"])
 
 
