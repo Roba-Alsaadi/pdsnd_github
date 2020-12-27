@@ -91,9 +91,8 @@ def time_stats(df):
     # TO DO: display the most common start hour
     popular_hour = df["Start Time"].mode()[0]
 
-    print("the most common month is :", popular_month)
-    print("the most common day of week is:", popular_day_of_week)
-    print("the most common start hour is:", popular_hour)
+    print("the most common month is {} and the most common day of week is {} and the most common start hour is {}".format(popular_month),(popular_day_of_week),(popular_hour))
+
 
 
 
